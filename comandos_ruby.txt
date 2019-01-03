@@ -1,0 +1,54 @@
+1.   irb
+2.   puts "escriba texto aquí"        				// putstring(para escribir)
+3.   inicializar variable = valor     				// cualquier tipo de dato, no es necesario indicarlo
+4.   exit()                           				//volver a la consola de windows
+5.   print                            				//escribir normal 
+6.   " #{}"                           				//concatenar texto
+7.   ' ' Texto plano
+8.   función.chomp                    				// chomp retira el salto de linea
+9.   fixnum                           				//entero
+10.  Float                           				//decimales
+11.  .to_i                           				//conversión a int
+12.  <<                               				// agregar valor a la última posición de un arreglo
+13.  .push                            				// agregar valor a la última posición de un arreglo
+14.  .unshift()                       				//agregar valor a la primera posición de un arreglo
+15.  +=                               				// asigna la suma/ agrega a la última posición de un arreglo otro arreglo
+16.  variable = arreglo.shift         				// retira el primer valor del arreglo y lo asigna a la variable
+17.  variable = arreglo.pop           				// retira el último valor del arreglo y lo asigna a la variable
+18.  variable = arreglo.drop(#)       				// copia los valores siguientes a la posición # y los asigna a la variable
+19.  variable = arreglo.slice(#a,#b)  				// copia los valores dentro del rango a,b del arreglo y los copia a la variable
+20.  arreglo = {"llave" => valor, "llave" =>  valor, etc}       // arreglos con punteros "llaves" las llaves deben ser irrepetidas
+21.  arreglo["llave"] = valor					// reasigna valor a la valor a la posición de la llave dentro del arreglo
+22.  arreglo = {:llave1=>valor, :llave2=>valor, etc}		// arreglos con punteros de tipo símbolo (es mejor usar símbolos que stings)
+23.  arreglo = {llave: valor, llave: valor, etc} 		// same as 22.
+24.  arreglo[:llave] = valor					// asigna a la ultima posición del arreglo esa llave y valor
+25.  arreglo.merge({llave:valor, llave:valor, etc})		// agrega a la última posición sin modificar el el arreglo original
+26.  arreglo.length						// devuelve el tamaño del arreglo
+27.  arreglo.keys						// devuelve las keys del arreglo
+28.  arreglo.has_key?(:llave)					// devuelve  true or false si está o no la  llave dentro del arreglo
+29.  arreglo.store(:llave, valor)				//añade al final del arreglo el valor y la llave asignadas
+30.  arreglo.values						// devuelve los valores de ll arreglo
+31.  arreglo.has_value?(valor)					// true or false si está o no el valor en el arreglo
+32.  ruby proyecto.rb						// corre el programa  proyetco.rb en ela ventana de comandos
+33.  .each							// por cada
+34.  #.times							// se ejecutará # veces
+35.  require "./archivo.rb"					// cargar componentes del archivo
+
+irb(main):028:0> item.store(:"#{name}","#{number}")
+
+
+<% Ruby code -- inline with output %>
+<%= Ruby expression -- replace with result %>
+<%# comment -- ignored -- useful in testing %>
+% a line of Ruby code -- treated as <% line %> (optional -- see ERB.new)
+%% replaced with % if first thing on a line and % processing is used
+<%% or %%> -- replace with <% or %> respectively
+
+
+
+HTTP---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+post					//agregar un recurso
+get					//obtener un recurso
+put					//modificar un recurso
+delete					//borrar un recurso
